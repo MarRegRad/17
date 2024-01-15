@@ -11,8 +11,5 @@ def find_max_element(matrix):
 
     return max_element, max_row
 
-
-def find_sum_of_row(matrix, row_index):
-    row = matrix[row_index]
-    row_sum = sum(row)
-    return row_sum
+if max_row is not None:
+        sum_max_row = sum(matrix[max_row])
