@@ -4,7 +4,7 @@ matrix = [
     [7, 8, 9]
 ]
 def find_max_element(matrix):
-    max_element = float('-inf')  # Изначально устанавливаем максимальный элемент наименьшим возможным значением
+    max_element = 0
     max_row = None  # Переменная для хранения индекса строки с максимальным элементом
 
     for i, row in enumerate(matrix):
