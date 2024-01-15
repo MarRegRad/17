@@ -18,3 +18,4 @@ def find_max_element(matrix):
 
     if max_row is not None:
         sum_max_row = sum(matrix[max_row])
+print(sum_max_row)
